@@ -23,7 +23,7 @@ docker container run --publish 9090:9090 --detach ghcr.io/cperves/isidareac:1.7
     * change `qtype_reacsimilarity | isidaurl` to http://servername:9090 or http://servername:newport
 
 ## Roadmap
-[Roadmap](./ROADMAP)
+[Roadmap](./ROADMAP.md)
 
 ## Change Log
-[Change Log](./CHANGELOG)
+[Change Log](./CHANGELOG.md)
