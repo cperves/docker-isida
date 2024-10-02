@@ -8,9 +8,11 @@ docker pull ghcr.io/cperves/isida:1.7
 docker container run --publish 9080:9080 --detach ghcr.io/cperves/isida:1.7
 # server will run on 9080 port but you can chnage to another port --publish newport:9080
 ``` 
+
 * in moodle molsimilarity plugin settings
   * change `qtype_molsimilarity | isidaurl` to http://servername:9080 or http://servername:newport
 
+[package registry link](https://github.com/cperves/docker-isida/pkgs/container/isida)
 ### readsimilarity
 * plugin can be found here https://moodle.org/plugins/qtype_reacsimilarity
 * to install server with docker image
@@ -22,6 +24,7 @@ docker container run --publish 9090:9090 --detach ghcr.io/cperves/isidareac:1.7
 * in moodle reacsimilarity plugin settings
     * change `qtype_reacsimilarity | isidaurl` to http://servername:9090 or http://servername:newport
 
+[package registry link](https://github.com/users/cperves/packages/container/package/isidareac)
 ## Roadmap
 [Roadmap](./ROADMAP.md)
 
