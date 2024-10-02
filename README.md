@@ -1,4 +1,7 @@
 # Isida servers for Moodle question type plugins  modlsimilarity et reacsimilarity
+This two ISIDA Servers are part of the ChemMoodle project from [LABORATOIRE DE CHÉMOINFORMATIQUE - UMR 7140 CNRS]( http://infochim.u-strasbg.fr/) of University of Strasbourg
+
+[github laboratory repository](https://github.com/Laboratoire-de-Chemoinformatique)
 ## Install and run
 ### molsimilarity
 * plugin can be found here https://moodle.org/plugins/qtype_molsimilarity
