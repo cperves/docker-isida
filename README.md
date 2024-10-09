@@ -20,8 +20,8 @@ docker container run --publish 9080:9080 --detach ghcr.io/cperves/isida:1.8
 * plugin can be found here https://moodle.org/plugins/qtype_reacsimilarity
 * to install server with docker image
 ```shell
-docker pull ghcr.io/cperves/isidareac:1.7
-docker container run --publish 9090:9090 --detach ghcr.io/cperves/isidareac:1.7
+docker pull ghcr.io/cperves/isidareac:1.8
+docker container run --publish 9090:9090 --detach ghcr.io/cperves/isidareac:1.8
 # server will run on 9080 port but you can change to another port --publish newport:9090
 ``` 
 * in moodle reacsimilarity plugin settings
