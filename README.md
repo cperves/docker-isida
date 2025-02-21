@@ -1,4 +1,4 @@
-# ISIDA servers for Moodle question type plugins  molsimilarity et reacsimilarity
+# ISIDA servers for Moodle question type plugins  molsimilarity and reacsimilarity
 This two ISIDA Servers are part of the ChemMoodle project from [LABORATOIRE DE CHÉMOINFORMATIQUE - UMR 7140 CNRS]( http://infochim.u-strasbg.fr/) of University of Strasbourg
 
 [github laboratory repository](https://github.com/Laboratoire-de-Chemoinformatique)
@@ -16,7 +16,7 @@ docker container run --publish 9080:9080 --detach ghcr.io/cperves/isida:1.8
   * change `qtype_molsimilarity | isidaurl` to http://servername:9080 or http://servername:newport
 
 [package registry link](https://github.com/cperves/docker-isida/pkgs/container/isida)
-### readsimilarity
+### reacsimilarity
 * plugin can be found here https://moodle.org/plugins/qtype_reacsimilarity
 * to install server with docker image
 ```shell
